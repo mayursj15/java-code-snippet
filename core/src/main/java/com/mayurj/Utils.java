@@ -7,12 +7,12 @@ import java.util.Map;
 public class Utils {
 
     public static List<Employee> getEmployees() {
-        Employee e1 = Employee.builder().age(25).name("john").salary(10000.0).city("newyork").build();
-        Employee e2 = Employee.builder().age(35).name("julie").salary(30000.0).city("newyork").build();
-        Employee e3 = Employee.builder().age(45).name("Sarah").salary(50000.0).city("paris").build();
-        Employee e4 = Employee.builder().age(45).name("james").salary(5000.0).city("newyork").build();
-        Employee e5 = Employee.builder().age(55).name("paul").salary(100000.0).city("paris").build();
-        Employee e6 = Employee.builder().age(34).name("adam").salary(10000.0).city("newyork").build();
+        Employee e1 = Employee.builder().age(25).name("rahul").salary(10000.0).city("newyork").build();
+        Employee e2 = Employee.builder().age(35).name("rajesh").salary(30000.0).city("newyork").build();
+        Employee e3 = Employee.builder().age(45).name("pravin").salary(50000.0).city("paris").build();
+        Employee e4 = Employee.builder().age(45).name("kumar").salary(5000.0).city("newyork").build();
+        Employee e5 = Employee.builder().age(55).name("arjun").salary(100000.0).city("paris").build();
+        Employee e6 = Employee.builder().age(34).name("sachin").salary(10000.0).city("newyork").build();
         return Arrays.asList(e1, e2, e3, e4, e5, e6);
     }
 
